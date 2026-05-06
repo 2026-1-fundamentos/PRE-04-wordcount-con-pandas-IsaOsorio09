@@ -33,7 +33,7 @@ def load_input(input_directory):
 def clean_text(dataframe):
     """Text cleaning"""
     #
-    # Elimine la puntuación y convierta el texto a minúsculas.
+
     #
     dataframe = dataframe.copy()
     dataframe["line"] = dataframe["line"].str.lower()
